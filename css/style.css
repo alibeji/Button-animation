@@ -1,0 +1,52 @@
+/*Lol button css*/
+.button{
+	border:2px solid rgba(188,142,40,.7);
+	border-radius:0;
+	padding:13px 35px 12px;
+	color:#bc8e28;
+	font-size:18px;
+	font-family: 'Caudex', serif;
+	font-weight:700;
+	font-style:normal;
+	text-transform:uppercase;
+	background:/*#26272d;*/ #4c0a19;
+	background-image:transparent;
+	box-shadow:0 0 0 0 transparent;
+	border-image:linear-gradient(to bottom,#bc8e28 0,#936d21 100%);
+	border-image-slice:1;
+	transition:all ease .5s;
+}
+.button:hover{
+	background-image:url(../res/btn.jpg);
+	background-position:center center;
+	background-size:cover;
+	box-shadow:0 0 10px 4px rgba(226,193,127,.4),inset 0 0 5px 2px rgba(226,193,127,.3);
+	border:2px solid rgba(226,193,127,.7)
+}
+.button-secondary{
+	border:2px solid rgba(188,142,40,.7);
+	border-radius:0;
+	padding:13px 35px 12px;
+	color:#bc8e28;
+	font-size:18px;
+	font-family: 'Caudex', serif;
+	font-weight:700;
+	font-style:normal;
+	text-transform:uppercase;
+	background-color: rgba(255,255,255,.6);
+	transition:all ease .5s;
+}
+.button-secondary:hover{
+	color: white;
+	background-color: #bc8e28;
+}
+.main{
+text-align: center;
+padding-top: 250px;
+}
+
+body {
+	background-image:url(../res/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
